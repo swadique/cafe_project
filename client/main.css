@@ -1,0 +1,104 @@
+.cafe{
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+}
+.tagline{
+  font-family: 'PT Sans', sans-serif;
+}
+.normal{
+  font-family: 'PT Sans', sans-serif;
+}
+.clock{
+  text-align:center;
+  padding:1em 0;
+  color: #4d4f50;
+}
+#jumbo{
+  height: 220px;
+  padding-top: 0;
+  color:rgb(50, 47, 185);
+  background: url("1.jpg") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+.main-container{
+  background-color:  #4d4f50;
+  padding-top: 20px;
+  min-height: 600px;
+}
+.all div{
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 8px;
+}
+.right-align div{
+  float: right;
+  margin: 3px;
+}
+.fa_icon{
+  font-size:20px !important;
+  color: #6f7172;
+}
+.people{
+  margin-right: 10px;
+}
+.fork{
+  margin-right: 20px; 
+}
+.number{
+  font-size: 25px;
+  font-weight: bold;
+  color: #c0f386    ;
+}
+#guageChart{
+  width: 100% !important;
+  height: auto !important;
+}
+#circle-container{
+  width: 100% !important;
+  height: auto !important;
+}
+#weekCanvas{
+  width: 100% !important;
+  height: auto !important; 
+}
+.basenav{
+  height: 40px;
+}
+#copyright{
+  color:white;
+  font-size: 13px;
+}
+.hrline{
+  border-width: 3px;
+  margin: 0px;
+  border-top: 1px solid #ccc;
+}
+.cardHeight{
+  height: 200px;
+}
+
+@media(max-width: 768px){
+  .mini{
+      width:339px !important;
+  }
+  .mini-new{
+      height:300px !important;
+  }
+  .minseat{
+      margin-left: 117px !important;
+  }
+  .minseat2{
+      margin-left: 48px !important;
+  }
+}  
+
+.frame{
+  position: relative;
+  width:95%;
+}
+.live{
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
